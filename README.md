@@ -10,3 +10,5 @@
 ```
   int maxBlockDimX;
   int maxBlockDimY;
+  int maxBlockDimZ;
+  cudaDeviceGetAttribute(&maxBlockDimX, cudaDevAttrMaxBlockDimX, devIdx);

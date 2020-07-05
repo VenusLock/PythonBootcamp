@@ -15,3 +15,4 @@
   cudaDeviceGetAttribute(&maxBlockDimY, cudaDevAttrMaxBlockDimY, devIdx);
   cudaDeviceGetAttribute(&maxBlockDimZ, cudaDevAttrMaxBlockDimZ, devIdx);
   printf("  %d %d %d \n", maxBlockDimX, maxBlockDimY, maxBlockDimZ);
+```

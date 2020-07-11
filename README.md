@@ -18,3 +18,7 @@
 ```
 
 vs. `cudaGetDeviceProperties`
+
+```
+  cudaDeviceProp prop;
+  cudaGetDeviceProperties(&prop, devIdx);

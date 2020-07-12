@@ -22,3 +22,5 @@ vs. `cudaGetDeviceProperties`
 ```
   cudaDeviceProp prop;
   cudaGetDeviceProperties(&prop, devIdx);
+  printf("  Max Threads Dim: %d %d %d\n", prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2]);
+```

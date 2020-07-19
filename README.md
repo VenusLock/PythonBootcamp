@@ -26,3 +26,5 @@ vs. `cudaGetDeviceProperties`
 ```
 
 
+
+- [reference of CUDA device properties](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__DEVICE.html)

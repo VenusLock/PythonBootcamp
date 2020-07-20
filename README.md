@@ -31,3 +31,6 @@ vs. `cudaGetDeviceProperties`
 
 - [Hemi](https://github.com/harrism/hemi) - library for writting reusable CPU and GPU code. single kernel function executable on both device types. More in this [blog post](https://developer.nvidia.com/blog/simple-portable-parallel-c-hemi-2/).
 
+
+
+1. Compile CUDA kernels

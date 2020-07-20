@@ -28,3 +28,6 @@ vs. `cudaGetDeviceProperties`
 
 
 - [reference of CUDA device properties](https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__DEVICE.html)
+
+- [Hemi](https://github.com/harrism/hemi) - library for writting reusable CPU and GPU code. single kernel function executable on both device types. More in this [blog post](https://developer.nvidia.com/blog/simple-portable-parallel-c-hemi-2/).
+

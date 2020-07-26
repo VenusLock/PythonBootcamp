@@ -34,3 +34,10 @@ vs. `cudaGetDeviceProperties`
 
 
 1. Compile CUDA kernels
+```
+nvcc device_info.cu -o device_info
+```
+
+2. Theory
+Thread Hierarchy with easy examples.
+```

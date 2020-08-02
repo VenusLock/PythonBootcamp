@@ -42,3 +42,5 @@ nvcc device_info.cu -o device_info
 Thread Hierarchy with easy examples.
 ```
 1d(Dx=15)
+like finiding a point on a line
+threadIdx = (7)

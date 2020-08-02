@@ -44,3 +44,5 @@ Thread Hierarchy with easy examples.
 1d(Dx=15)
 like finiding a point on a line
 threadIdx = (7)
+threadId = threadIdx.x
+threadId = 7

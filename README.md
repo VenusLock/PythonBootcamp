@@ -46,3 +46,5 @@ like finiding a point on a line
 threadIdx = (7)
 threadId = threadIdx.x
 threadId = 7
+
+-> -------x-------

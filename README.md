@@ -48,3 +48,7 @@ threadId = threadIdx.x
 threadId = 7
 
 -> -------x-------
+
+2d(Dx=15, Dy=4)
+like finding a line on a plane and then finding a point on it.
+threadIdx = (2, 7)

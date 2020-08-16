@@ -53,3 +53,5 @@ threadId = 7
 like finding a line on a plane and then finding a point on it.
 threadIdx = (2, 7)
 threadId = threadIdx.x + threadIdx.y * Dx
+threadId = 7 + 2 * 15 = 37
+   ---------------

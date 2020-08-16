@@ -55,3 +55,5 @@ threadIdx = (2, 7)
 threadId = threadIdx.x + threadIdx.y * Dx
 threadId = 7 + 2 * 15 = 37
    ---------------
+   ---------------
+-> -------x-------

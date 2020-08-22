@@ -64,3 +64,6 @@ threadId = 7 + 2 * 15 = 37
 3d(Dx=15, Dy=4, Dz=2)
 threadIdx = (0, 2, 7)
 threadId = threadIdx.x + threadIdx.y * Dx + threadIdx.z * Dx * Dy
+like finding a plane in a volume then line on a plane and finaly a point.
+
+   --------------- --

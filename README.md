@@ -68,3 +68,4 @@ like finding a plane in a volume then line on a plane and finaly a point.
 
    --------------- --
    ---------------   | first
+-> --------x------   | find a slice

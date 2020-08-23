@@ -67,3 +67,4 @@ threadId = threadIdx.x + threadIdx.y * Dx + threadIdx.z * Dx * Dy
 like finding a plane in a volume then line on a plane and finaly a point.
 
    --------------- --
+   ---------------   | first

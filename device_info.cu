@@ -2,4 +2,4 @@
 #include <stdio.h> 
 
 
-#define ANSI_CO
+#define ANSI_COLOR

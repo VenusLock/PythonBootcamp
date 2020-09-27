@@ -2,4 +2,4 @@
 #include <stdio.h> 
 
 
-#define ANS
+#define ANSI_

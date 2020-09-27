@@ -2,4 +2,4 @@
 #include <stdio.h> 
 
 
-#define ANSI_
+#define ANSI_CO

@@ -2,4 +2,4 @@
 #include <stdio.h> 
 
 
-#define ANSI_COLOR_RES
+#define ANSI_COLOR_RESET

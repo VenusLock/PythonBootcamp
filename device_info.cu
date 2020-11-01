@@ -2,4 +2,4 @@
 #include <stdio.h> 
 
 
-#define ANSI_COLOR_RESET "\
+#define ANSI_COLOR_RESET "\x1b

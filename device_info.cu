@@ -5,4 +5,4 @@
 #define ANSI_COLOR_RESET "\x1b[0m"
 #define ANSI_COLOR_CYAN  "\x1B[36m"
 
-int mai
+int main

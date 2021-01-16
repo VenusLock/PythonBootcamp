@@ -6,4 +6,4 @@
 #define ANSI_COLOR_CYAN  "\x1B[36m"
 
 int main() {  
-  int nDev
+  int nDevice

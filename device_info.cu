@@ -8,4 +8,4 @@
 int main() {  
   int nDevices;
 
-  cudaError
+  cudaError_t

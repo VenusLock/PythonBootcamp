@@ -8,4 +8,4 @@
 int main() {  
   int nDevices;
 
-  cudaError_t err = cudaGet
+  cudaError_t err = cudaGetDev

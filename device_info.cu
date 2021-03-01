@@ -9,4 +9,4 @@ int main() {
   int nDevices;
 
   cudaError_t err = cudaGetDeviceCount(&nDevices);
-  printf("%s\n", cu
+  printf("%s\n", cudaG

@@ -10,4 +10,4 @@ int main() {
 
   cudaError_t err = cudaGetDeviceCount(&nDevices);
   printf("%s\n", cudaGetErrorString(err));
-  if (err != cudaSuccess) printf("%s\n", cudaGetErr
+  if (err != cudaSuccess) printf("%s\n", cudaGetErrorS

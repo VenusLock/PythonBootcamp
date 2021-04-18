@@ -12,4 +12,4 @@ int main() {
   printf("%s\n", cudaGetErrorString(err));
   if (err != cudaSuccess) printf("%s\n", cudaGetErrorString(err));
 
-  for (int devI
+  for (int devIdx

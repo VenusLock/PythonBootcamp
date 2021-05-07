@@ -14,3 +14,4 @@ int main() {
 
   for (int devIdx = 0; devIdx < nDevices; devIdx++) {
     cudaDeviceProp prop;
+  

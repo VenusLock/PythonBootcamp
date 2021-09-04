@@ -17,4 +17,4 @@ int main() {
     cudaGetDeviceProperties(&prop, devIdx);
     printf("Device Number: %d\n", devIdx);
     printf("  Device name: %s\n", prop.name);
-    printf("  Device compute capability: %d.%d\n", prop.m
+    printf("  Device compute capability: %d.%d\n", prop.maj

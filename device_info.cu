@@ -18,4 +18,4 @@ int main() {
     printf("Device Number: %d\n", devIdx);
     printf("  Device name: %s\n", prop.name);
     printf("  Device compute capability: %d.%d\n", prop.major, prop.minor);
-    printf("  LUID: %s\n", pro
+    printf("  LUID: %s\n", prop.lu

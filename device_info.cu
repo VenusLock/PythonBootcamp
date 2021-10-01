@@ -19,4 +19,4 @@ int main() {
     printf("  Device name: %s\n", prop.name);
     printf("  Device compute capability: %d.%d\n", prop.major, prop.minor);
     printf("  LUID: %s\n", prop.luid);
-    printf("  CanMapHostMemor
+    printf("  CanMapHostMemory:

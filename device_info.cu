@@ -21,4 +21,4 @@ int main() {
     printf("  LUID: %s\n", prop.luid);
     printf("  CanMapHostMemory: %d\n", prop.canMapHostMemory);
     printf("  Clock Rate (KHz): %d\n", prop.clockRate);
-    printf("  Memory C
+    printf("  Memory Cl

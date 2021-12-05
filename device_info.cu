@@ -22,4 +22,4 @@ int main() {
     printf("  CanMapHostMemory: %d\n", prop.canMapHostMemory);
     printf("  Clock Rate (KHz): %d\n", prop.clockRate);
     printf("  Memory Clock Rate (KHz): %d\n", prop.memoryClockRate);
-    printf("  Memory Bus Width (bits): %d\n", prop.memoryBusWid
+    printf("  Memory Bus Width (bits): %d\n", prop.memoryBusWidth

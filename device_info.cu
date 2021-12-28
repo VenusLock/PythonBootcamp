@@ -23,4 +23,4 @@ int main() {
     printf("  Clock Rate (KHz): %d\n", prop.clockRate);
     printf("  Memory Clock Rate (KHz): %d\n", prop.memoryClockRate);
     printf("  Memory Bus Width (bits): %d\n", prop.memoryBusWidth);
-    printf("  Peak Memory Bandwidth (GB/s): %f\n", 2.0*prop.memoryCloc
+    printf("  Peak Memory Bandwidth (GB/s): %f\n", 2.0*prop.memoryClockR

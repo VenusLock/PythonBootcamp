@@ -25,4 +25,4 @@ int main() {
     printf("  Memory Bus Width (bits): %d\n", prop.memoryBusWidth);
     printf("  Peak Memory Bandwidth (GB/s): %f\n", 2.0*prop.memoryClockRate*(prop.memoryBusWidth/8)/1.0e6);
 
-    printf("  Max Threads Per Block: %d\n", prop.maxThreadsPe
+    printf("  Max Threads Per Block: %d\n", prop.maxThreadsPerBl

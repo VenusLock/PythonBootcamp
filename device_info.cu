@@ -26,4 +26,4 @@ int main() {
     printf("  Peak Memory Bandwidth (GB/s): %f\n", 2.0*prop.memoryClockRate*(prop.memoryBusWidth/8)/1.0e6);
 
     printf("  Max Threads Per Block: %d\n", prop.maxThreadsPerBlock);
-    printf("  %sMax Threads Dim: %d %d %d%s\n", ANSI_COLOR_CYAN, prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2], ANSI_COLOR_RES
+    printf("  %sMax Threads Dim: %d %d %d%s\n", ANSI_COLOR_CYAN, prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2], ANSI_COLOR_RESET);

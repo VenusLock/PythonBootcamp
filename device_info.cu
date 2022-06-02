@@ -28,4 +28,4 @@ int main() {
     printf("  Max Threads Per Block: %d\n", prop.maxThreadsPerBlock);
     printf("  %sMax Threads Dim: %d %d %d%s\n", ANSI_COLOR_CYAN, prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2], ANSI_COLOR_RESET);
     printf("  Max Grid Size: %d %d %d\n", prop.maxGridSize[0], prop.maxGridSize[1], prop.maxGridSize[2]);
-    printf("  Multiprocessor Count:
+    printf("  Multiprocessor Count: %d\

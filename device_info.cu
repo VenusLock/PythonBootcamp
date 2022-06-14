@@ -30,3 +30,4 @@ int main() {
     printf("  Max Grid Size: %d %d %d\n", prop.maxGridSize[0], prop.maxGridSize[1], prop.maxGridSize[2]);
     printf("  Multiprocessor Count: %d\n", prop.multiProcessorCount);
 
+  }

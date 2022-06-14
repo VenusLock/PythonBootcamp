@@ -31,3 +31,4 @@ int main() {
     printf("  Multiprocessor Count: %d\n", prop.multiProcessorCount);
 
   }
+}

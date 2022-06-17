@@ -7,3 +7,4 @@ notes and code samples from https://developer.nvidia.com/blog/even-easier-introd
 
    - CPU code `clang++ add.cpp -o add`
    - GPU code `nvcc add.cu -o add`
+

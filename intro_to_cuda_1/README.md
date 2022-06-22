@@ -23,3 +23,7 @@ gridDim represents - number of thread-blocks. **grid** - is a collection of bloc
 Threads are running asynchornously within a block.
 
 **Grid-stride style kernel** is a generic approach to launch a kernel even if number of threads is less then number of parallel computations necessary to accomplish. More on this [topic](https://developer.nvidia.com/blog/cuda-pro-tip-write-flexible-kernels-grid-stride-loops/)
+
+```c++
+// Blocks of threads are mulitple of 32.
+blockSize = 64

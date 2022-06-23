@@ -27,3 +27,4 @@ Threads are running asynchornously within a block.
 ```c++
 // Blocks of threads are mulitple of 32.
 blockSize = 64
+numBlocks = 32

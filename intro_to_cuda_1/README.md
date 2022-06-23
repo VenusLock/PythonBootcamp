@@ -30,3 +30,8 @@ blockSize = 64
 numBlocks = 32
 
 <<<numBlocks, blockSize>>>add(N, x, y);
+```
+
+
+
+### Profling

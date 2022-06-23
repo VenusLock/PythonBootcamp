@@ -28,3 +28,5 @@ Threads are running asynchornously within a block.
 // Blocks of threads are mulitple of 32.
 blockSize = 64
 numBlocks = 32
+
+<<<numBlocks, blockSize>>>add(N, x, y);

@@ -35,3 +35,9 @@ numBlocks = 32
 
 
 ### Profling
+
+`nvprof ./add_cuda` - launch command line GPU profiler to get stats on kernel execution.
+
+```
+
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name

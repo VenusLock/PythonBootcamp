@@ -44,3 +44,4 @@ numBlocks = 32
  GPU activities:  100.00%  263.83ms         1  263.83ms  263.83ms  263.83ms  add_single_threaded(int, float*, float*)
  GPU activities:  100.00%  2.0172ms         1  2.0172ms  2.0172ms  2.0172ms  add_multi_threaded(int, float*, float*)
  GPU activities:  100.00%  51.137us         1  51.137us  51.137us  51.137us  add(int, float*, float*)
+```

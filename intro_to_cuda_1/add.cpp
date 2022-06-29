@@ -20,3 +20,7 @@ int main(void)
         y[i] = 2.0f;
     }
 
+
+    // Run kernel on 1M elements on the CPU
+    add(N, x, y);
+    

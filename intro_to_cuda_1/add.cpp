@@ -24,3 +24,6 @@ int main(void)
     // Run kernel on 1M elements on the CPU
     add(N, x, y);
     
+    // Check for errors (all values should be 3.0f)
+    float maxError = 0.0f;
+    for (int i = 0; i < N; i++)

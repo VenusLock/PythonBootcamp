@@ -31,3 +31,8 @@ int main(void)
     std::cout << "Max error: " << maxError << std::endl;
 
     // Free memory
+    delete [] x;
+    delete [] y;
+
+    return 0;
+}

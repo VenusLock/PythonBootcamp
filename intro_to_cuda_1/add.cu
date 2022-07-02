@@ -10,3 +10,9 @@ void add_single_threaded(int n, float *x, float *y){
 
 __global__
 void add_multi_threaded(int n, float *x, float *y){
+
+    int idx = threadIdx.x;
+    int stride = blockDim.x;
+    // printf("threadIdx = %d; blockDim = %d; blockIdx = %d %d\n", idx, stride, blockIdx.x, blockIdx.y);
+    for (int i = idx; i < n; i += stride)
+    {

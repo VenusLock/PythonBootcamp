@@ -9,3 +9,4 @@ void add_single_threaded(int n, float *x, float *y){
 }
 
 __global__
+void add_multi_threaded(int n, float *x, float *y){

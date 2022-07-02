@@ -16,3 +16,6 @@ void add_multi_threaded(int n, float *x, float *y){
     // printf("threadIdx = %d; blockDim = %d; blockIdx = %d %d\n", idx, stride, blockIdx.x, blockIdx.y);
     for (int i = idx; i < n; i += stride)
     {
+        printf("array idx %d\n", i);
+        y[i] = x[i] + y[i];
+    }

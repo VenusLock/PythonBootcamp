@@ -20,3 +20,6 @@ void add_multi_threaded(int n, float *x, float *y){
         y[i] = x[i] + y[i];
     }
 }
+
+__global__
+void add(int n, float *x, float *y)

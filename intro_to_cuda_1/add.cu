@@ -19,3 +19,4 @@ void add_multi_threaded(int n, float *x, float *y){
         printf("array idx %d\n", i);
         y[i] = x[i] + y[i];
     }
+}

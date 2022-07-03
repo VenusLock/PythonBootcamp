@@ -23,3 +23,6 @@ void add_multi_threaded(int n, float *x, float *y){
 
 __global__
 void add(int n, float *x, float *y)
+{   
+    // gird-stride loop.
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;

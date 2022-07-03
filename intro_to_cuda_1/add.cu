@@ -30,3 +30,4 @@ void add(int n, float *x, float *y)
     // printf("threadIdx = %d; blockDim = %d; blockIdx = %d\n", idx, stride, blockIdx.x);
     for (int i = idx; i < n; i += stride)
         y[i] = x[i] + y[i];
+}

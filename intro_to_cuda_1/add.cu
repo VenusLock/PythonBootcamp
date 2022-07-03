@@ -28,3 +28,5 @@ void add(int n, float *x, float *y)
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     int stride = blockDim.x * gridDim.x;
     // printf("threadIdx = %d; blockDim = %d; blockIdx = %d\n", idx, stride, blockIdx.x);
+    for (int i = idx; i < n; i += stride)
+        y[i] = x[i] + y[i];

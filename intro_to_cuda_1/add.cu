@@ -35,3 +35,4 @@ void add(int n, float *x, float *y)
 int main(void)
 {
     int N = 1 << 20; // ~1M elements, more preciesly 2^20 = 1048576 elements.:)
+    float *x, *y;

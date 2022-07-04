@@ -31,3 +31,7 @@ void add(int n, float *x, float *y)
     for (int i = idx; i < n; i += stride)
         y[i] = x[i] + y[i];
 }
+
+int main(void)
+{
+    int N = 1 << 20; // ~1M elements, more preciesly 2^20 = 1048576 elements.:)

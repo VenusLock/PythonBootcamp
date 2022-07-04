@@ -36,3 +36,7 @@ int main(void)
 {
     int N = 1 << 20; // ~1M elements, more preciesly 2^20 = 1048576 elements.:)
     float *x, *y;
+
+    // Unified memory allocation, accessible by CPUs and GPUs
+    cudaMallocManaged(&x, N*sizeof(float));
+    cudaMallocManaged(&y, N*sizeof(float));

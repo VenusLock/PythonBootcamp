@@ -40,3 +40,7 @@ int main(void)
     // Unified memory allocation, accessible by CPUs and GPUs
     cudaMallocManaged(&x, N*sizeof(float));
     cudaMallocManaged(&y, N*sizeof(float));
+
+    // init x and y arrays on the host
+    for (int i = 0; i < N; i++) {
+        x[i] = 1.0f;

@@ -59,3 +59,7 @@ int main(void)
     // Run kernel on multiple thread blocks
     int numBlocks = (N + blockSize - 1) / blockSize;
     add<<<numBlocks, blockSize>>>(N, x, y);
+
+    // Wait for GPU to finish before accessing on host
+    cudaDeviceSynchronize();
+    

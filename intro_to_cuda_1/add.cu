@@ -46,3 +46,6 @@ int main(void)
         x[i] = 1.0f;
         y[i] = 2.0f;
     }
+
+
+    // Run kernel on 1M elements on the GPU

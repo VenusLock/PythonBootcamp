@@ -51,3 +51,7 @@ int main(void)
     // Run kernel on 1M elements on the GPU
     // add_single_threaded<<<1, 1>>>(N, x, y);
 
+
+    // Run kernel on a single block of multiple threads
+    int blockSize = 256;
+    // add_multi_threaded<<<1, blockSize>>>(N, x, y);

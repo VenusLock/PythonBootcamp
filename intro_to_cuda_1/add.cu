@@ -63,3 +63,6 @@ int main(void)
     // Wait for GPU to finish before accessing on host
     cudaDeviceSynchronize();
     
+    // Check for errors (all values should be 3.0f)
+    float maxError = 0.0f;
+    for (int i = 0; i < N; i++)

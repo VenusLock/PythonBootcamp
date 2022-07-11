@@ -49,3 +49,5 @@ int main(void)
 
 
     // Run kernel on 1M elements on the GPU
+    // add_single_threaded<<<1, 1>>>(N, x, y);
+

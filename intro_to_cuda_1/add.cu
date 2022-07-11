@@ -55,3 +55,7 @@ int main(void)
     // Run kernel on a single block of multiple threads
     int blockSize = 256;
     // add_multi_threaded<<<1, blockSize>>>(N, x, y);
+
+    // Run kernel on multiple thread blocks
+    int numBlocks = (N + blockSize - 1) / blockSize;
+    add<<<numBlocks, blockSize>>>(N, x, y);

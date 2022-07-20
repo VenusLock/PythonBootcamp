@@ -16,3 +16,5 @@ GPU version
 
 
 ### Notes:
+
+`gridDim.x` - is a tuple of 3 elements. But CUDA supported only 2d grids for a long time, last dim was just singular. Need to check if CUDA supports now 3d grids.

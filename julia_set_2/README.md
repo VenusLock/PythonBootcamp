@@ -24,3 +24,7 @@ GPU version
 where
 
 `__global__` is CPU - CUDA.
+
+
+
+### Questions:

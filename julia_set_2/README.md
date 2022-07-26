@@ -28,3 +28,4 @@ where
 
 
 ### Questions:
+1. How can I compile same C++ and CUDA versions with `clang`?

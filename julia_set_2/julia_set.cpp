@@ -5,3 +5,6 @@
 #define DIM 1000
 
 struct cuComplex
+{
+    /* Struct for representing complex numbers */
+    float real;

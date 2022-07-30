@@ -8,3 +8,7 @@ struct cuComplex
 {
     /* Struct for representing complex numbers */
     float real;
+    float imag;
+    cuComplex( float a, float b): real(a), imag(b) {}
+    float magnitude2(void) {
+        return real*real + imag*imag;

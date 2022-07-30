@@ -12,3 +12,5 @@ struct cuComplex
     cuComplex( float a, float b): real(a), imag(b) {}
     float magnitude2(void) {
         return real*real + imag*imag;
+    }
+    cuComplex operator*(const cuComplex& a) {

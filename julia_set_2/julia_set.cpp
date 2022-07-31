@@ -14,3 +14,7 @@ struct cuComplex
         return real*real + imag*imag;
     }
     cuComplex operator*(const cuComplex& a) {
+        return cuComplex(real * a.real - imag * a.imag, imag * a.real + real * a.imag);
+    }
+    cuComplex operator+(const cuComplex& a) {
+        return cuComplex(real + a.real, imag + a.imag);

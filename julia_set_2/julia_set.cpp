@@ -21,3 +21,6 @@ struct cuComplex
     }
 
 };
+
+int julia(int x, int y) {
+    const float scale = 1.5;

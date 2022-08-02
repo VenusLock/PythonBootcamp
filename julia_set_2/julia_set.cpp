@@ -40,3 +40,5 @@ int julia(int x, int y) {
 }
 
 void kernel(unsigned char *ptr) {
+    for (int y=0; y<DIM; y++){
+        for (int x=0; x<DIM; x++){

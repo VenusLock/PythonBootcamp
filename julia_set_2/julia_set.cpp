@@ -35,3 +35,8 @@ int julia(int x, int y) {
         a = a * a + c;
         if (a.magnitude2() > 1000)
             return 0;
+    }
+    return 1;
+}
+
+void kernel(unsigned char *ptr) {

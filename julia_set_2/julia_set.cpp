@@ -57,3 +57,6 @@ void kernel(unsigned char *ptr) {
 
 int main(void) {
     CPUBitmap bitmap(DIM, DIM);
+    unsigned char *ptr = bitmap.get_ptr();
+
+    kernel(ptr);

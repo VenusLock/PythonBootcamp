@@ -60,3 +60,6 @@ int main(void) {
     unsigned char *ptr = bitmap.get_ptr();
 
     kernel(ptr);
+
+    bitmap.display_and_exit();
+}

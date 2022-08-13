@@ -9,3 +9,5 @@ struct cuComplex
     /* Struct for representing complex numbers */
     float real;
     float imag;
+
+    __device__

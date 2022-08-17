@@ -19,3 +19,4 @@ struct cuComplex
     }
 
     __device__
+    cuComplex operator*(const cuComplex& a) {

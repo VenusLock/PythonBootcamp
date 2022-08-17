@@ -14,3 +14,5 @@ struct cuComplex
     cuComplex( float a, float b): real(a), imag(b) {}
 
     __device__
+    float magnitude2(void) {
+        return real*real + imag*imag;

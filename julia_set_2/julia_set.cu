@@ -16,3 +16,6 @@ struct cuComplex
     __device__
     float magnitude2(void) {
         return real*real + imag*imag;
+    }
+
+    __device__

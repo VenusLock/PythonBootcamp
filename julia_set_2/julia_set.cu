@@ -12,3 +12,5 @@ struct cuComplex
 
     __device__
     cuComplex( float a, float b): real(a), imag(b) {}
+
+    __device__

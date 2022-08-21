@@ -22,3 +22,5 @@ struct cuComplex
     cuComplex operator*(const cuComplex& a) {
         return cuComplex(real * a.real - imag * a.imag, imag * a.real + real * a.imag);
     }
+
+    __device__

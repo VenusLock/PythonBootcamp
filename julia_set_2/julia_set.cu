@@ -29,3 +29,8 @@ struct cuComplex
     }
 
 };
+
+__device__
+int julia(int x, int y) {
+    const float scale = 1.5;
+    float jx = scale * (float)(DIM/2 - x)/(DIM/2);

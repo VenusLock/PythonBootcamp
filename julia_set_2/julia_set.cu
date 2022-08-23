@@ -26,3 +26,6 @@ struct cuComplex
     __device__
     cuComplex operator+(const cuComplex& a) {
         return cuComplex(real + a.real, imag + a.imag);
+    }
+
+};

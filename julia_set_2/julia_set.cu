@@ -38,3 +38,6 @@ int julia(int x, int y) {
 
     cuComplex c(-0.8, 0.156);
     cuComplex a(jx, jy);
+
+    int i = 0;
+    for (i=0; i<200; i++) {

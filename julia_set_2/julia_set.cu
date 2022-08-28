@@ -43,3 +43,6 @@ int julia(int x, int y) {
     for (i=0; i<200; i++) {
         a = a * a + c;
         if (a.magnitude2() > 1000)
+            return 0;
+    }
+    return 1;

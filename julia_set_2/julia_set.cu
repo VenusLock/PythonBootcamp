@@ -47,3 +47,6 @@ int julia(int x, int y) {
     }
     return 1;
 }
+
+__global__
+void kernel(unsigned char *ptr) {

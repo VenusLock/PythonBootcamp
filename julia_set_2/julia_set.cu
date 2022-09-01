@@ -50,3 +50,6 @@ int julia(int x, int y) {
 
 __global__
 void kernel(unsigned char *ptr) {
+
+    int x = blockIdx.x;
+    int y = blockIdx.y;

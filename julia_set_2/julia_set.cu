@@ -53,3 +53,5 @@ void kernel(unsigned char *ptr) {
 
     int x = blockIdx.x;
     int y = blockIdx.y;
+    // multiply row idx by grid width (gridDim.x) and shift by col idx. gives a correct address.
+    int offset = y * gridDim.x + x;

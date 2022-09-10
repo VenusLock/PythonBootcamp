@@ -56,3 +56,7 @@ void kernel(unsigned char *ptr) {
     // multiply row idx by grid width (gridDim.x) and shift by col idx. gives a correct address.
     int offset = y * gridDim.x + x;
     int juliaVal = julia(x, y);
+
+    ptr[offset*4 + 0] = 255 * juliaVal;
+    ptr[offset*4 + 1] = 0;
+    ptr[offset*4 + 2] = 0;

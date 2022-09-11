@@ -60,3 +60,5 @@ void kernel(unsigned char *ptr) {
     ptr[offset*4 + 0] = 255 * juliaVal;
     ptr[offset*4 + 1] = 0;
     ptr[offset*4 + 2] = 0;
+    ptr[offset*4 + 3] = 255;
+}

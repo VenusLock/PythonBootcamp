@@ -64,3 +64,6 @@ void kernel(unsigned char *ptr) {
 }
 
 
+
+int main(void) {
+    CPUBitmap bitmap(DIM, DIM);

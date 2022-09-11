@@ -62,3 +62,5 @@ void kernel(unsigned char *ptr) {
     ptr[offset*4 + 2] = 0;
     ptr[offset*4 + 3] = 255;
 }
+
+

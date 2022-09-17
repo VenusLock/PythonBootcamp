@@ -67,3 +67,7 @@ void kernel(unsigned char *ptr) {
 
 int main(void) {
     CPUBitmap bitmap(DIM, DIM);
+    unsigned char *dev_bitmap;
+
+    cudaMalloc(
+        (void**)&dev_bitmap,

@@ -73,3 +73,6 @@ int main(void) {
         (void**)&dev_bitmap,
         bitmap.image_size()
         );
+
+    dim3 grid(DIM, DIM);
+    kernel<<<grid,1>>>(dev_bitmap);

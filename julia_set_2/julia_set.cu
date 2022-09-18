@@ -71,3 +71,4 @@ int main(void) {
 
     cudaMalloc(
         (void**)&dev_bitmap,
+        bitmap.image_size()

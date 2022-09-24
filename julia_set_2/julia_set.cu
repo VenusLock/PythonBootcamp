@@ -76,3 +76,7 @@ int main(void) {
 
     dim3 grid(DIM, DIM);
     kernel<<<grid,1>>>(dev_bitmap);
+
+    cudaMemcpy(bitmap.get_ptr(), dev_bitmap, bitmap.image_size(), cudaMemcpyDeviceToHost);
+    bitmap.display_and_exit();
+    cudaFree(dev_bitmap);

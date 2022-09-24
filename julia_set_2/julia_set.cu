@@ -80,3 +80,5 @@ int main(void) {
     cudaMemcpy(bitmap.get_ptr(), dev_bitmap, bitmap.image_size(), cudaMemcpyDeviceToHost);
     bitmap.display_and_exit();
     cudaFree(dev_bitmap);
+
+}

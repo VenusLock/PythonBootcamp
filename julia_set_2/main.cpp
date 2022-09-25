@@ -5,3 +5,5 @@
 
 int main (int argc, char** argv) 
 {
+  // start GL context and O/S window using the GLFW helper library
+  if (!glfwInit ()) 

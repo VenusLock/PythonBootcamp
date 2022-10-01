@@ -9,3 +9,7 @@ int main (int argc, char** argv)
   if (!glfwInit ()) 
     {
       std::cerr<<"ERROR: could not start GLFW3"<<std::endl;
+      return 1;
+    } 
+
+  //Setting window properties

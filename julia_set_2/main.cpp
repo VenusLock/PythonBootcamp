@@ -20,3 +20,6 @@ int main (int argc, char** argv)
   
   //Actually create the window
   GLFWwindow* window = glfwCreateWindow (640, 480, "OpenGL Initialization Example", NULL, NULL);
+  if (!window) 
+    {
+      std::cerr<<"ERROR: could not open window with GLFW3"<<std::endl;

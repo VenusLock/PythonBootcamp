@@ -25,3 +25,6 @@ int main (int argc, char** argv)
       std::cerr<<"ERROR: could not open window with GLFW3"<<std::endl;
       glfwTerminate();
       return 1;
+    }
+  glfwMakeContextCurrent (window);
+                                  

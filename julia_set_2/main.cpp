@@ -23,3 +23,5 @@ int main (int argc, char** argv)
   if (!window) 
     {
       std::cerr<<"ERROR: could not open window with GLFW3"<<std::endl;
+      glfwTerminate();
+      return 1;

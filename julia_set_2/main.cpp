@@ -34,3 +34,5 @@ int main (int argc, char** argv)
 
   // get version info
   const GLubyte* renderer = glGetString (GL_RENDERER); // get renderer string
+  const GLubyte* version = glGetString (GL_VERSION); // version as a string
+  std::cout<<"Renderer: "<<renderer<<std::endl;

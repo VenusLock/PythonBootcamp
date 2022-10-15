@@ -31,3 +31,6 @@ int main (int argc, char** argv)
   // start GLEW extension handler
   glewExperimental = GL_TRUE;
   glewInit ();
+
+  // get version info
+  const GLubyte* renderer = glGetString (GL_RENDERER); // get renderer string

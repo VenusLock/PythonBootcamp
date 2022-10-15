@@ -28,3 +28,6 @@ int main (int argc, char** argv)
     }
   glfwMakeContextCurrent (window);
                                   
+  // start GLEW extension handler
+  glewExperimental = GL_TRUE;
+  glewInit ();

@@ -37,3 +37,8 @@ int main (int argc, char** argv)
   const GLubyte* version = glGetString (GL_VERSION); // version as a string
   std::cout<<"Renderer: "<<renderer<<std::endl;
   std::cout<<"OpenGL version supported "<<version<<std::endl;
+
+  // close GL context and any other GLFW resources
+  glfwTerminate();
+  return 0;
+}

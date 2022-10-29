@@ -12,3 +12,5 @@
 #include <stdio.h>
 
 #include <cuda_runtime.h>
+
+#define BLOCK_SIZE 32

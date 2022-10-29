@@ -14,3 +14,5 @@
 #include <cuda_runtime.h>
 
 #define BLOCK_SIZE 32
+
+typedef struct {

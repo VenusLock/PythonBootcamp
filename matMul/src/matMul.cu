@@ -8,3 +8,4 @@
  Description : CUDA compute reciprocals
  ============================================================================
  */
+#include <stdlib.h>

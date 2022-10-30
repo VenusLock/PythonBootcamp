@@ -16,3 +16,5 @@
 #define BLOCK_SIZE 32
 
 typedef struct {
+
+	int width;

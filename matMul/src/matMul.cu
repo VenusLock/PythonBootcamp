@@ -23,3 +23,6 @@ typedef struct {
 } Matrix;
 
 __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
+
+	int col = blockDim.x * blockIdx.x + threadIdx.x;
+	int row = blockDim.y * blockIdx.y + threadIdx.y;

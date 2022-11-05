@@ -21,3 +21,5 @@ typedef struct {
 	int height;
 	float *elements;
 } Matrix;
+
+__global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {

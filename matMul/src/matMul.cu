@@ -30,3 +30,6 @@ __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
 	float Cval = 0;
 
 	if (row < A.height && col < B.width) {
+		for (int e=0; e<A.width; e++){
+			Cval += A.elements[A.width * row + e] *
+					B.elements[B.width * e + col];

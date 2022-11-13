@@ -33,3 +33,5 @@ __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
 		for (int e=0; e<A.width; e++){
 			Cval += A.elements[A.width * row + e] *
 					B.elements[B.width * e + col];
+		}
+		C.elements[C.width * row + col] = Cval;

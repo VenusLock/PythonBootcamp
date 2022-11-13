@@ -28,3 +28,5 @@ __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
 	int row = blockDim.y * blockIdx.y + threadIdx.y;
 
 	float Cval = 0;
+
+	if (row < A.height && col < B.width) {

@@ -35,3 +35,4 @@ __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
 					B.elements[B.width * e + col];
 		}
 		C.elements[C.width * row + col] = Cval;
+	}

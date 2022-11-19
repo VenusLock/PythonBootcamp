@@ -36,3 +36,6 @@ __global__ void matMulKernel(Matrix A, Matrix B, Matrix C) {
 		}
 		C.elements[C.width * row + col] = Cval;
 	}
+}
+
+void init_matrix(float *elements, int width, int height) {

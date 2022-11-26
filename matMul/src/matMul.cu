@@ -44,3 +44,6 @@ void init_matrix(float *elements, int width, int height) {
 		for(int j=0; j< width; j++){
 			int idx = width * i + j;
 			elements[idx] = random()/(float)RAND_MAX;
+		}
+	}
+}

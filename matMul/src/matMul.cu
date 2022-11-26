@@ -47,3 +47,4 @@ void init_matrix(float *elements, int width, int height) {
 		}
 	}
 }
+

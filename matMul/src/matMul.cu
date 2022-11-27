@@ -48,3 +48,5 @@ void init_matrix(float *elements, int width, int height) {
 	}
 }
 
+
+void print_matrix(Matrix A) {

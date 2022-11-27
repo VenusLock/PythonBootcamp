@@ -50,3 +50,6 @@ void init_matrix(float *elements, int width, int height) {
 
 
 void print_matrix(Matrix A) {
+
+	for(int i=0; i<A.height; i++){
+		for(int j=0; j<A.width; j++){

@@ -53,3 +53,5 @@ void print_matrix(Matrix A) {
 
 	for(int i=0; i<A.height; i++){
 		for(int j=0; j<A.width; j++){
+			int idx = A.width * i + j;
+			printf("Matrix[%d][%d] = %.4f\n", i, j, A.elements[idx]);

@@ -62,3 +62,6 @@ void print_matrix(Matrix A) {
 void check_results(Matrix A, Matrix B, Matrix C) {
 
 	float value = 0;
+	for(int i=0; i<A.height; i++){
+		for(int j=0; j<B.width; j++){
+			for(int k=0; k<B.height; k++){

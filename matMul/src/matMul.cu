@@ -65,3 +65,5 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 	for(int i=0; i<A.height; i++){
 		for(int j=0; j<B.width; j++){
 			for(int k=0; k<B.height; k++){
+				value += A.elements[A.width * i + k]
+				       * B.elements[B.width * k + j];

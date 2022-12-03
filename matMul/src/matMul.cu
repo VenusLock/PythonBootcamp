@@ -67,3 +67,8 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 			for(int k=0; k<B.height; k++){
 				value += A.elements[A.width * i + k]
 				       * B.elements[B.width * k + j];
+			}
+			printf("Host C[%d][%d] = %.4f\n", i, j, value);
+			printf("diff %.4f\n", value - C.elements[C.width*i +j]);
+			value = 0;
+		}

@@ -58,3 +58,7 @@ void print_matrix(Matrix A) {
 		}
 	}
 }
+
+void check_results(Matrix A, Matrix B, Matrix C) {
+
+	float value = 0;

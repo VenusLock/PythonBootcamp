@@ -72,3 +72,4 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 			printf("diff %.4f\n", value - C.elements[C.width*i +j]);
 			value = 0;
 		}
+	}

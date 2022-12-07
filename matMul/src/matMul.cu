@@ -75,3 +75,6 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 	}
 
 }
+int main(int argc, char** argv) {
+	
+	Matrix h_A;

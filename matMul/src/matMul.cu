@@ -73,3 +73,5 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 			value = 0;
 		}
 	}
+
+}

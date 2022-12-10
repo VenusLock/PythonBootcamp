@@ -85,3 +85,4 @@ int main(int argc, char** argv) {
 	init_matrix(h_A.elements, h_A.width, h_A.height);
 
 	Matrix h_B;
+	h_B.height = 5;

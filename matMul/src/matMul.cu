@@ -82,3 +82,6 @@ int main(int argc, char** argv) {
 	h_A.width = 5;
 	size_t A_size = h_A.height * h_A.width * sizeof(float);
 	h_A.elements = (float *)malloc(A_size);
+	init_matrix(h_A.elements, h_A.width, h_A.height);
+
+	Matrix h_B;

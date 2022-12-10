@@ -86,3 +86,6 @@ int main(int argc, char** argv) {
 
 	Matrix h_B;
 	h_B.height = 5;
+	h_B.width = 2;
+	size_t B_size = h_B.height * h_B.width * sizeof(float);
+	h_B.elements = (float *)malloc(B_size);

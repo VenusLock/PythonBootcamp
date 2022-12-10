@@ -78,3 +78,7 @@ void check_results(Matrix A, Matrix B, Matrix C) {
 int main(int argc, char** argv) {
 	
 	Matrix h_A;
+	h_A.height = 2;
+	h_A.width = 5;
+	size_t A_size = h_A.height * h_A.width * sizeof(float);
+	h_A.elements = (float *)malloc(A_size);

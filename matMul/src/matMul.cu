@@ -92,3 +92,7 @@ int main(int argc, char** argv) {
 	init_matrix(h_B.elements, h_B.width, h_B.height);
 
 	Matrix h_C;
+	h_C.height = h_A.height;
+	h_C.width = h_B.width;
+	size_t C_size = h_C.height * h_C.width * sizeof(float);
+	h_C.elements = (float *)malloc(C_size);

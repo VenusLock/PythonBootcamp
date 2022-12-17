@@ -101,3 +101,8 @@ int main(int argc, char** argv) {
 	d_A.height = h_A.height;
 	d_A.width = h_A.width;
 	cudaMalloc(&d_A.elements, A_size);
+
+	Matrix d_B;
+	d_B.height = h_B.height;
+	d_B.width = h_B.width;
+	cudaMalloc(&d_B.elements, B_size);

@@ -109,3 +109,8 @@ int main(int argc, char** argv) {
 
 	Matrix d_C;
 	d_C.height = h_C.height;
+	d_C.width = h_C.width;
+	cudaMalloc(&d_C.elements, C_size);
+
+	cudaMemcpy(d_A.elements, h_A.elements, A_size, cudaMemcpyHostToDevice);
+	cudaMemcpy(d_B.elements, h_B.elements, B_size, cudaMemcpyHostToDevice);

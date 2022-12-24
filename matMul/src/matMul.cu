@@ -116,3 +116,4 @@ int main(int argc, char** argv) {
 	cudaMemcpy(d_B.elements, h_B.elements, B_size, cudaMemcpyHostToDevice);
 
 	dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);
+	dim3 dimGrid((h_B.width + BLOCK_SIZE -1)/BLOCK_SIZE, (h_A.height + BLOCK_SIZE -1)/BLOCK_SIZE);

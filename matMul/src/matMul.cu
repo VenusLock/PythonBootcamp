@@ -114,3 +114,5 @@ int main(int argc, char** argv) {
 
 	cudaMemcpy(d_A.elements, h_A.elements, A_size, cudaMemcpyHostToDevice);
 	cudaMemcpy(d_B.elements, h_B.elements, B_size, cudaMemcpyHostToDevice);
+
+	dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);

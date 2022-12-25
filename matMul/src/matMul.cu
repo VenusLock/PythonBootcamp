@@ -119,3 +119,7 @@ int main(int argc, char** argv) {
 	dim3 dimGrid((h_B.width + BLOCK_SIZE -1)/BLOCK_SIZE, (h_A.height + BLOCK_SIZE -1)/BLOCK_SIZE);
 
 	matMulKernel<<<dimGrid, dimBlock>>>(d_A, d_B, d_C);
+
+	cudaMemcpy(h_C.elements, d_C.elements, C_size, cudaMemcpyDeviceToHost);
+
+	cudaDeviceSynchronize();

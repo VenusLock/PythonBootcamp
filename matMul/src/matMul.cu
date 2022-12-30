@@ -123,3 +123,5 @@ int main(int argc, char** argv) {
 	cudaMemcpy(h_C.elements, d_C.elements, C_size, cudaMemcpyDeviceToHost);
 
 	cudaDeviceSynchronize();
+
+	check_results(h_A, h_B, h_C);

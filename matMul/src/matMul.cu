@@ -127,3 +127,7 @@ int main(int argc, char** argv) {
 	check_results(h_A, h_B, h_C);
 
 	printf("Values of matrix A\n");
+	print_matrix(h_A);
+	printf("Values of matrix B\n");
+	print_matrix(h_B);
+	printf("Values of matrix C\n");

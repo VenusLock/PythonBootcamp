@@ -125,3 +125,5 @@ int main(int argc, char** argv) {
 	cudaDeviceSynchronize();
 
 	check_results(h_A, h_B, h_C);
+
+	printf("Values of matrix A\n");

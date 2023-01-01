@@ -132,3 +132,6 @@ int main(int argc, char** argv) {
 	print_matrix(h_B);
 	printf("Values of matrix C\n");
 	print_matrix(h_C);
+
+	cudaFree(d_A.elements);
+	cudaFree(d_B.elements);

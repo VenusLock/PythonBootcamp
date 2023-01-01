@@ -138,3 +138,4 @@ int main(int argc, char** argv) {
 	cudaFree(d_C.elements);
 
 	free(h_A.elements);
+	free(h_B.elements);

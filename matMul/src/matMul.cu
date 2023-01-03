@@ -139,3 +139,4 @@ int main(int argc, char** argv) {
 
 	free(h_A.elements);
 	free(h_B.elements);
+	free(h_C.elements);

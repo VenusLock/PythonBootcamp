@@ -14,3 +14,4 @@ __global__ void saxpy(int n, float a, float* x, float* y) {
 int main(int argc, char** argv) {
 
         int nDevices; 
+        cudaGetDeviceCount(&nDevices);  

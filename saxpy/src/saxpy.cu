@@ -15,3 +15,7 @@ int main(int argc, char** argv) {
 
         int nDevices; 
         cudaGetDeviceCount(&nDevices);  
+
+        printf("Number of GPU devices %d\n", nDevices);
+
+        for (int i = 0; i < nDevices; i++) {

@@ -19,3 +19,5 @@ int main(int argc, char** argv) {
         printf("Number of GPU devices %d\n", nDevices);
 
         for (int i = 0; i < nDevices; i++) {
+       
+            cudaDeviceProp prop;

@@ -23,3 +23,6 @@ int main(int argc, char** argv) {
             cudaDeviceProp prop;
             cudaGetDeviceProperties(&prop, i);
            
+            printf("Device Number: %d\n", i); 
+            printf("  Device Name: %s\n", prop.name);
+            printf("  Memory Clock Rate (Khz): %d\n", prop.memoryClockRate);

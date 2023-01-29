@@ -26,3 +26,5 @@ int main(int argc, char** argv) {
             printf("Device Number: %d\n", i); 
             printf("  Device Name: %s\n", prop.name);
             printf("  Memory Clock Rate (Khz): %d\n", prop.memoryClockRate);
+            printf("  Memory Bus Width (bits): %d\n", prop.memoryBusWidth);
+            printf("  Peak Memory Bandwidth (GB/s): %f\n",

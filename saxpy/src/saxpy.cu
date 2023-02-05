@@ -30,3 +30,5 @@ int main(int argc, char** argv) {
             printf("  Peak Memory Bandwidth (GB/s): %f\n",
                     2.0*prop.memoryClockRate*(prop.memoryBusWidth/8)/1.0e6);
         }	
+
+	int N = 1<<20; // same as 2^20 or around 1 million. 	

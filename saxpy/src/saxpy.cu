@@ -32,3 +32,4 @@ int main(int argc, char** argv) {
         }	
 
 	int N = 1<<20; // same as 2^20 or around 1 million. 	
+        float *x, *y, *d_x, *d_y;

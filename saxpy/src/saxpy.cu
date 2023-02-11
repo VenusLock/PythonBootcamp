@@ -38,3 +38,5 @@ int main(int argc, char** argv) {
         
         cudaMalloc(&d_x, N*sizeof(float));
         cudaMalloc(&d_y, N*sizeof(float));
+       
+        for (int i = 0; i < N; i++) {

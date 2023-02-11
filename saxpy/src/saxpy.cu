@@ -40,3 +40,7 @@ int main(int argc, char** argv) {
         cudaMalloc(&d_y, N*sizeof(float));
        
         for (int i = 0; i < N; i++) {
+            x[i] = 1.0f;
+            y[i] = 2.0f;
+	}
+	cudaMemcpy(d_x, x, N*sizeof(float), cudaMemcpyHostToDevice);

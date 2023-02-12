@@ -47,3 +47,5 @@ int main(int argc, char** argv) {
 	cudaMemcpy(d_y, y, N*sizeof(float), cudaMemcpyHostToDevice);
 
 	saxpy<<<4096, 256>>>(N, 2.0f, d_x, d_y);
+
+	cudaMemcpy(y, d_y, N*sizeof(float), cudaMemcpyDeviceToHost);

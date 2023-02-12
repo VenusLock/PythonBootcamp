@@ -44,3 +44,4 @@ int main(int argc, char** argv) {
             y[i] = 2.0f;
 	}
 	cudaMemcpy(d_x, x, N*sizeof(float), cudaMemcpyHostToDevice);
+	cudaMemcpy(d_y, y, N*sizeof(float), cudaMemcpyHostToDevice);

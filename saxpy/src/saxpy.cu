@@ -49,3 +49,7 @@ int main(int argc, char** argv) {
 	saxpy<<<4096, 256>>>(N, 2.0f, d_x, d_y);
 
 	cudaMemcpy(y, d_y, N*sizeof(float), cudaMemcpyDeviceToHost);
+
+        float maxError = 0.0f; //no suffix defines double
+        float vectorSum = 0.0f;
+        for (int i = 0; i < N; i++) {

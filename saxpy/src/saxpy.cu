@@ -53,3 +53,5 @@ int main(int argc, char** argv) {
         float maxError = 0.0f; //no suffix defines double
         float vectorSum = 0.0f;
         for (int i = 0; i < N; i++) {
+	   maxError = max(maxError, abs(4.0f - y[i]));
+           vectorSum += y[i];

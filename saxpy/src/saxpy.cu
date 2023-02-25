@@ -55,3 +55,6 @@ int main(int argc, char** argv) {
         for (int i = 0; i < N; i++) {
 	   maxError = max(maxError, abs(4.0f - y[i]));
            vectorSum += y[i];
+        }
+        printf("Max error: %f\n", maxError);
+        printf("Sum of all vector elements: %f\n", vectorSum);

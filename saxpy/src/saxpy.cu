@@ -63,3 +63,6 @@ int main(int argc, char** argv) {
 	cudaFree(d_x);
 	cudaFree(d_y);
 	// Free host memory
+        free(x);
+        free(y);
+}

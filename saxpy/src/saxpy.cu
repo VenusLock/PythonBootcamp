@@ -58,3 +58,8 @@ int main(int argc, char** argv) {
         }
         printf("Max error: %f\n", maxError);
         printf("Sum of all vector elements: %f\n", vectorSum);
+
+	// Free device memory
+	cudaFree(d_x);
+	cudaFree(d_y);
+	// Free host memory
